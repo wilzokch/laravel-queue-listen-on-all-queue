@@ -2,13 +2,23 @@
 
 ## Installation
 
+1. add
 
-run the `composer require` command from your terminal:
+	    "repositories": [
+	        {
+	            "type": "vcs",
+	            "url":  "git@bitbucket.org:wilzokch/laravel-queue-listen-on-all-queue.git"
+	        }
+	    ],
 
-    composer require wilzokch/laravel-queue-listen-on-all-queue:dev-master
+	to your composer.json.
 
-Then in your `config/app.php` add
-```php
-    Wilzokch\LaravelQueue\QueueServiceProvider::class,
-```
-in the `providers` array.
+2. run the `composer require` command from your terminal:
+
+    	composer require wilzokch/laravel-queue-listen-on-all-queue:dev-master
+
+3. in your `config/app.php` add
+
+		Wilzokch\LaravelQueue\QueueServiceProvider::class,
+
+	to the `providers` array.
