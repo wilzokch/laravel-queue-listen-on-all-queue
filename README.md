@@ -19,11 +19,10 @@
 
     	composer require wilzokch/laravel-queue-listen-on-all-queue:dev-master
 
-3. Laravel 5.5+ uses Package Auto-Discovery, so does not require you to manually add the ServiceProvider.
+Laravel 5.5+ uses Package Auto-Discovery, so does not require you to manually add the ServiceProvider.
 
 #### Laravel version below 5.5:
 
 If you use Laravel version below 5.5 or don't use auto-discovery, add the ServiceProvider to the `providers` array in `config/app.php`
 
-		Wilzokch\LaravelQueue\QueueServiceProvider::class,
-
+	Wilzokch\LaravelQueue\QueueServiceProvider::class,
