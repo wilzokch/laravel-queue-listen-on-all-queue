@@ -1,0 +1,19 @@
+{
+    "name": "wilzokch/laravel-queue-listen-on-all-queue",
+    "description": "Laravel queue listen on all queue",
+    "authors": [
+        {
+            "name": "wilzokch",
+            "email": "8280365+wilzokch@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "laravel/framework": "5.2.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wilzokch\\LaravelQueue\\": "src/"
+        }
+    }
+}
