@@ -9,7 +9,7 @@
 	    "repositories": [
 	        {
 	            "type": "vcs",
-	            "url":  "git@bitbucket.org:wilzokch/laravel-queue-listen-on-all-queue.git"
+	            "url":  "git@github.com:wilzokch/laravel-queue-listen-on-all-queue.git"
 	        }
 	    ],
 
